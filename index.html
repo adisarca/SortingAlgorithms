@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Algoritms</title>
+</head>
+<body>
+    <nav id="toolbar">
+        <span id="generate">Generate Array</span>
+        <div>
+            <label for="arraysize">Array size</label>
+            <input type="range" name="arraysize" id="arraysize" value="30" min="5" max="100" oninput="generateArray(arSize.value)">
+        </div>
+        <span id="bublesort">Bubble Sort</span>
+        <span id="insertionsort">Insertion Sort</span>
+        <span id="selectionsort">Selection Sort</span>
+    </nav>
+
+    <header id="displayArray"></header>
+
+    <script src="main.js"></script>
+</body>
+</html>

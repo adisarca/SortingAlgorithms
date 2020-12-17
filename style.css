@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+span{
+  cursor: pointer;
+}
+#toolbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(4, 8, 61);
+    color: rgb(236, 232, 232);
+}
+#displayArray{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+}
+
+
